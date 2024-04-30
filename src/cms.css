@@ -1,0 +1,64 @@
+/* CMS.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  button {
+    width: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+/* CMS.css */
+
+/* ... (previous styles) */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+    width: 102%; /* Adjust width as needed */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .delete button {
+    background-color: rgb(188, 0, 0);
+    margin-left: 20px;
+    width: 150px;
+  }

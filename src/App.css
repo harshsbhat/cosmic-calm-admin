@@ -1,0 +1,45 @@
+
+nav {
+  background-color: black;
+  height: 80px; /* Adjust height as needed */
+  border-bottom: 2px solid black; /* Add a border at the bottom */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Make the list items flex items */
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+  height: 100%; /* Make the list fill the height of the navbar */
+}
+
+nav li {
+  margin: 0 15px; /* Adjust spacing between items */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 10px; /* Vertically align text within the navbar */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+nav a:hover {
+  color: white; /* Change color on hover */
+}
+
+nav a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: white; /* Highlight color */
+  transition: width 0.3s; /* Smooth transition for width change */
+}
+
+nav a:hover::after {
+  width: 100%; /* Expand highlight on hover */
+}
